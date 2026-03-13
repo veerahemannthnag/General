@@ -270,6 +270,8 @@ from llama_index.core import SimpleDirectoryReader
 
 documents = SimpleDirectoryReader("docs").load_data()
 
+```
+
 Supported file types:
 
 PDF
