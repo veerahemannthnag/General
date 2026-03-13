@@ -125,6 +125,7 @@ Embedding models convert text into **numerical vectors representing semantic mea
 Example:
 
 "reset password"
+
 → vector [0.21, -0.8, 0.33, ...]
 
 
@@ -233,10 +234,15 @@ The **Email Processing Agent** orchestrates the entire workflow.
 ### Email Processing Agent Stack
 
 Python
+
 FastAPI
+
 Microsoft Graph API
+
 LlamaIndex
+
 OpenAI API
+
 Vector Database
 
 
@@ -256,10 +262,14 @@ Possible sources include:
 
 ### Example Knowledge Base Folder
 
-knowledge_base/
+knowledge_base
+
 password_reset.md
+
 radar_troubleshooting.pdf
+
 billing_policy.txt
+
 api_configuration_guide.md
 
 
